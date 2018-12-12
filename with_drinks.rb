@@ -1,4 +1,4 @@
-class WithDrinks
+class WithDrinks < MealDecorator
   def cost
     @meal.cost + 10
   end

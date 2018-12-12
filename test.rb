@@ -28,7 +28,7 @@ meal_4 = WithDrinks.new(WithExtraRice.new(Meal.new))
 meal_5 = WithSideDish.new(WithExtraRice.new(WithExtraRice.new(Meal.new)))
 
 # Bill out all
-Restaurant.billout(meal_3, meal_4, meal_5)
+Restaurant.bill_out(meal_3, meal_4, meal_5)
 
 # Print the earnings singleton variable
 puts Restaurant.earnings
