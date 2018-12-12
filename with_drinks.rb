@@ -1,5 +1,5 @@
 class WithDrinks < MealDecorator
   def cost
-    @meal.cost + 10
+    @meal.cost + 12
   end
 end
